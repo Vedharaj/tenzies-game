@@ -60,8 +60,9 @@ function App() {
   }
 
   return (
+    <>
+    {tenzies && <Confetti className='full-w-h'/>}
     <div className="App">
-      {tenzies && <Confetti className='full-w-h'/>}
       <div className='d-flex position-relative align-self-start w-100 justify-content-around'>
         <p className='me-5 h5 text-success'><b>Score:</b> {score}</p>
         <p className='h5 text-success'><b>High Score:</b> {highScore}</p>
@@ -78,6 +79,7 @@ function App() {
         {tenzies ? 'new game' :'Roll Dice'}
       </button>
     </div>
+    </>
   );
 }
 

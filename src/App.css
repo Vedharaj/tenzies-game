@@ -60,7 +60,7 @@ html{
   }
 }
 
-@media screen and (min-height: 400px){
+@media screen and (max-height: 768px){
   .App{
     height: 90vh;
   }
