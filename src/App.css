@@ -50,12 +50,18 @@ html{
   font-weight: 600;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
   .App{
     width: 90vw;
     height: 55vh;
   }
   .dice{
     width: 90%;
+  }
+}
+
+@media screen and (min-height: 400px){
+  .App{
+    height: 90vh;
   }
 }
