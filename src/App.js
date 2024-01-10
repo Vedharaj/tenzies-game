@@ -74,7 +74,7 @@ function App() {
       <div className='dice'>
         <DiceContainer />
       </div>
-      <button className="btn btn-success mt-4" onClick={handleRollDice}>
+      <button className="btn btn-lg btn-success mt-4" onClick={handleRollDice}>
         {tenzies ? 'new game' :'Roll Dice'}
       </button>
     </div>
