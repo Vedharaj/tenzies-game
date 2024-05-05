@@ -31,7 +31,7 @@ To run the application locally, follow these steps:
    npm start
    ```
 
-7. Open your browser and visit `http://localhost:5173` to view the application.
+7. Open your browser and visit `http://localhost:3000` to view the application.
 
 ### Folder Structure
 - `public`: conatins html file
