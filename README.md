@@ -28,7 +28,7 @@ To run the application locally, follow these steps:
 
    ```
    nom install
-   npm run dev
+   npm start
    ```
 
 7. Open your browser and visit `http://localhost:5173` to view the application.
